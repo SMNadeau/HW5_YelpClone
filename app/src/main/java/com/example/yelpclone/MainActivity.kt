@@ -28,14 +28,6 @@ class MainActivity : AppCompatActivity() {
         recycler_view.layoutManager = LinearLayoutManager(this)
 
 
-
-        //Key's to be used in order to pull information from yelp
-        // Client ID:
-        //ecHYcoWK7-pVM76EtejaEw
-
-        //API Key:
-        //F-iCWcazJq2HmjxyorhONqxfWU4iWE_j_C0L04UExgRMGl8KutAyWTMZxTcQZFvbxvfVUtwGI4uIINagfEadbjp3iFmf_PZDqxtqpGWT9kq93TaL5w4TKbVj0zaVXnYx
-
         val foodSearch = foodText.text
         val locationSearch = locationText.text
 
